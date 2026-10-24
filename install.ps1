@@ -5,4 +5,4 @@ New-Item -ItemType Directory -Force (Join-Path $dest "agents") | Out-Null
 New-Item -ItemType Directory -Force (Join-Path $dest "skills\joueurs") | Out-Null
 Copy-Item (Join-Path $here "agents\*.md") (Join-Path $dest "agents") -Force
 Copy-Item (Join-Path $here "skills\joueurs\SKILL.md") (Join-Path $dest "skills\joueurs") -Force
-Write-Output "Équipe « Les Joueurs » installée dans $dest"
+Write-Output "Equipe Les Joueurs installee dans $dest"
